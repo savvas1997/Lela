@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>LelaCoin</title>
+    <link rel="icon"  type="image/png" sizes="16×16" href="images/coinLogo.png">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- awesome fontfamily -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="" /></div>
+    </div>
+    <!-- end loader -->
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="searvices.html">Services</a>
+        <a class="active" href="testimonial.html">BUY LELA</a>
+              <!-- <a href="works.html">Works</a>-->
+        <a href="contact.html">Contact</a>
+    </div>
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div class="head-top">
+            <div class="container-fluid">
+                <div class="row d_flex">
+                    <div class="col-sm-3">
+                        <div class="logo">
+                            <a href="index.html">LeLaCoin</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <ul class="social_icon text_align_right d_none">
+                            <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                            <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                            <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li> <a href="https://www.instagram.com/lela_token/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="email text_align_right">
+                            <li class="d_none"><a href="Javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                            <li class="d_none"> <a href="Javascript:void(0)"><i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"></i></a> </li>
+                            <li>
+                                <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- testimonial -->
+    <div class="testimonial">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="border_testi">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="titlepage text_align_center">
+                                    <h2>Buy LeLa from PancakeSwap</h2><br>
+                                    <h2 style="color:#248f8f">Step 1: Create a Wallet</h2><br>
+                                    <p>Download Trust Wallet and create a wallet. Keep your phrase a secret! Never share it with anyone and store it properly! <font style="color:red;"><b>Make sure to copy the contract address below!</b> </font> <br>
+                                    <button  onclick="copyToClipboard('#myadress')">Copy Address</button> <p id="myadress" > 0xbb82b82064acb4C17833FCeEeA385b6dA73cc330  </p>
+
+                                        <script>
+                                       function copyToClipboard(element) {
+                                          var $temp = $("<input>");
+                                          $("body").append($temp);
+                                          $temp.val($(element).text()).select();
+                                          document.execCommand("copy");
+                                          $temp.remove();
+                                        }
+                                        </script>  
+                                    
+                                    <h2 style="color:#248f8f">Step 2: Add LELA to the Wallet</h2><br>
+                                    <p>Tap the icon in the top-right and search for "LELA". If it's not there, tap "Add Custom Token".<br>
+
+At the top, tap "Ethereum" next to Network, and change it to "Smart Chain". Copy the contract address on this page and put it in the Contract Address box. <br>
+
+Next, put "LELA" as the name, and the symbol as LELA. Decimals will be 16.<br>
+
+Click "Done" at the top and you should now have LELA COIN added to your wallet!<br>
+                                    </p>
+                                    <h2 style="color:#248f8f">Step 3: Buy "Binance Smart Chain" (BSC)</h2><br>
+                                    <p>Tap on "Smart Chain" on the main screen of trust wallet, then tap "Buy" in the top right. This step may require KYC verification, so have documents ready to prove your identity.<br>
+
+If the transaction won't go through, you may need to contact your bank to allow international transactions.<br>
+
+After purchasing, there may be a delay while your transaction is processed. Be patient, this is normal!<br>
+                                    </p>
+                                    <h2 style="color:#248f8f">Step 4: Swap BSC for LELA!</h2><br>
+                                    <p>Once your transaction has been cleared, and you have BSC on your Trust Wallet, Go to DApps (or "Browser" for iPhones) at the bottom of the main screen. If the Browser button is not visible at the bottom for iPhone, open Safari and in the URL type trust://browser_enable, then return to trust wallet.<br>
+
+Open the DApps, or Browser, section and find PancakeSwap and open it. Connect your Trust Wallet in the top-right. Scroll down a little to the "Exchange" box<br>
+
+Click the  icon and set the slippage to 12%. If you want to give it the best possible change to clear, increase the deadline. By default it should be set to 20 minutes, which is fine.<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                       <!-- <div class="row d_flex">
+                            <div class="col-md-10 offset-md-1">
+                                <div id="testimo" class="carousel slide our_testimonial" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#testimo" data-slide-to="0" class="active"></li>
+                                        <li data-target="#testimo" data-slide-to="1"></li>
+                                        <li data-target="#testimo" data-slide-to="2"></li>
+                                    </ol>
+                                    <!--<div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="images/clint.jpg" alt="#"/></i>
+                                                                <h3>MorGan Den</h3>
+                                                                <span>Bitcoin</span>
+                                                                <img src="images/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="images/clint.jpg" alt="#"/></i>
+                                                                <h3>MorGan Den</h3>
+                                                                <span>Bitcoin</span>
+                                                                <img src="images/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="images/clint.jpg" alt="#"/></i>
+                                                                <h3>MorGan Den</h3>
+                                                                <span>Bitcoin</span>
+                                                                <img src="images/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>-->
+                                   <!-- <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        <span class="sr-only">Next</span>
+                                    </a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testimonial -->
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="logo_bottom" href="index.html">LELA COIN</a>
+                    </div>
+                    <div class="col-md-3 col-sm-6" ">
+                  <div class="Informa conta ">
+                     <h3>Contact Us</h3>
+                     <ul>
+                        
+                        <li> <a href="Javascript:void(0) "> <i class="fa fa-envelope " aria-hidden="true "></i> info@lelacoin.com
+                           </a>
+                        </li>
+                     </ul>
+
+                  </div>
+               </div>
+           
+
+            </div>
+            <div class="copyright text_align_center ">
+               <div class="container ">
+                  <div class="row ">
+                     <div class="col-md-12 ">
+                        <p>© 2021 All Rights Reserved. Design by   <a href="https://bscscan.com/token/0xbb82b82064acb4C17833FCeEeA385b6dA73cc330?a=0x0d7e4ce2334dae0b7f35ce40d751db2f39c8c44e "> LELA</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js "></script>
+      <script src="js/bootstrap.bundle.min.js "></script>
+      <script src="js/jquery-3.0.0.min.js "></script>
+      <script src="js/custom.js "></script>
+   </body>
+</html>
