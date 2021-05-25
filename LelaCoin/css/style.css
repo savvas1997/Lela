@@ -508,7 +508,8 @@ ul.email li i {
 }
 
 .about_border {
-     border: #ddd dashed 1px;
+     border: #ddd solid 1px;
+    border-radius: 25px;
      padding: 80px 80px;
 }
 
@@ -586,6 +587,7 @@ ul.email li i {
 
 .graf_tab {
      border: #989eae solid 1px;
+    border-radius: 25px;
 }
 
 .graf_tab li {
@@ -687,6 +689,7 @@ ul.email li i {
 
 .border_testi {
      border: #fff solid 1px;
+    border-radius: 25px;
      padding: 90px 0 142px 0;
      margin: 0 40px;
 }
